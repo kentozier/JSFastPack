@@ -12,7 +12,7 @@ function JSFastPack(inString)
 	var lastChar;
 	var delim;
 	
-	// Without a higher level context, detecting 
+	// Without some type of context tracking, detecting 
 	// regular expressions, character by character, 
 	// is really cumbersome, so before doing anything 
 	// else, temporarily encode them as base64 strings 
