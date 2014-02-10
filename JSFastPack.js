@@ -1,7 +1,7 @@
 // JSFastPack removes comments and extraneous whitespace  
 // from Javascript source files. Particular attention was given
 // towards tuning code making it as fast as possible. In tests
-// it packed roughly 5 MB per second, on average
+// it packing rates of between 5 MB and 15 MB per second.
 function JSFastPack(inString)
 {
 	var i			= 0;
