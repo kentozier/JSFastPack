@@ -1,0 +1,103 @@
+body {
+	font-family: Lucida Grande, sans-serif;
+	font-size: 11pt;
+	line-height: 16pt;
+}
+
+p {
+	margin-top:  0pt;
+	margin-bottom: 4pt;
+}
+
+.baseBlock {
+	top: 10pt;
+	left: 75pt;
+	bottom: 30pt;
+	right: 75pt;
+	position: absolute;
+}
+
+.insetBlock {
+	top: 10pt;
+	left: 30pt;
+	bottom: 30pt;
+	right: 30pt;
+	position: absolute;
+	overflow: hidden;
+}
+
+.infoBlock {
+	border-bottom: 1px rgba(0,0,0,.2) solid;
+	padding-bottom: 10pt;
+}
+
+.leftBlock {
+	width: 48%;
+	height: 250pt;
+	display: inline-block;
+	float: left;
+}
+
+.rightBlock {
+	width: 48%;
+	height: 250pt;
+	display: inline-block;
+	float: right;
+}
+
+.textBlock {
+	border: 1px rgba(0,0,0,.2) solid;
+	width: 100%;
+	height: 90%;
+	overflow: auto;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: 12pt;
+	text-align: left;
+	vertical-align: top;
+	background-color: rgba(0,0,0,.05);
+}
+
+
+
+.title {
+	font-size: 21pt;
+	line-height: 30 pt;
+	border-bottom: 1px rgba(0,0,0,.2) solid;
+	padding-top: 20pt;
+	padding-bottom: 20pt;
+	margin-bottom: 10pt;
+	color: rgba(225,127,0,1);
+}
+
+button {
+	font-size: 11pt;
+	line-height: 14 pt;
+	height: 24 pt;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	padding-left: 1em;
+	padding-right: 1em;
+	float: right;
+	margin-right: 0pt;
+}
+
+.boldHeader {
+	font-weight: bold;
+	font-size: 12pt;
+	padding-top: 10pt;
+	color: rgba(225,127,0,1);
+}
+
+.stats {
+	font-size: 10pt;
+	font-weight: bold;
+	margin-top: 10pt;
+	color: rgba(225,127,0,1);
+}
+
+.values {
+	font-weight: normal;
+	color: rgba(0,0,0,1);
+}
