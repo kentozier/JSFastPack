@@ -12,7 +12,7 @@ function JSFastPack(inString)
 	var lastChar;
 	var delim;
 	
-	// Without some type of context tracking, detecting 
+	// Without some form of context tracking, detecting 
 	// regular expressions, character by character, 
 	// is really cumbersome, so before doing anything 
 	// else, temporarily encode them as base64 strings 
@@ -228,22 +228,6 @@ function JSFastPack(inString)
 			lastType	= 'n';
 		}
 	}
-	
-	/*
-	var elapsed		= new Date() - start;
-	var slen		= inString.length;
-	var rlen		= result.length;
-	var rsaved		= slen - rlen;
-	var rpercent	= Math.round(10000 * rsaved / slen) / 100;
-	
-	console.log('elapsed: ' + elapsed + 
-		  ', source: ' + slen + 
-		  ', result: ' + rlen +
-		  ', saved bytes: ' + rsaved + 
-		  ', saved percent: ' + rpercent);
-		  
-	console.log('result: ' + result);
-	//*/
 	
 	return result;
 }
