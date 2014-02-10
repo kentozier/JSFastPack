@@ -23,7 +23,7 @@ function JSFastPack(inString)
 	// the packing algorithm is specifically designed 
 	// to remove as much whitespace as possible which,
 	// if applied within regular expressions, could 
-	// potentially change what they do.
+	// potentially change their behavior.
 	
 	var encodeMatch	= function(inMatch)
 	{
